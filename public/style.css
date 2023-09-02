@@ -11,4 +11,17 @@ body {
   
 Enter your styling here */
 
-nav{}
+nav{
+
+  background-color: black;
+  color: white;
+  height:80px;
+  font-size: 25px;
+  display: flex;
+  align-items:center ;
+}
+
+nav ul{
+
+  list-style-type: none;
+}
