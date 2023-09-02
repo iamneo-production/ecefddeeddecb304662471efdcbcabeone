@@ -9,7 +9,7 @@ body {
     font-family: "Radio Canada", sans-serif;
   }
   
-Enter your styling here */
+/*Enter your styling here */
 
 *{
 
@@ -35,3 +35,11 @@ nav h1{
 }
 
 
+/* game container */
+
+.gameContainer{
+
+  background-color: yellow;
+
+
+}
