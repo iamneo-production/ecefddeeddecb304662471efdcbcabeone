@@ -10,34 +10,35 @@
   <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
-
-    
-
-      <div class="container">
-
-        <h1 id="playerText">Tic Tac Toe</h1>
-
-        
-
-        
-      <div id="gameboard">
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-        <div class="box"><span class="boxtext"></span></div>
-
-
+  <header>
+      <h1>Tic Tac Toe</h1>
+  </header>
+  <div class="box">
+      <div class="row">
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
       </div>
-      <button id="restartbtn">Restart</button>
-    </div>
-
+      <div class="row">
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+      </div>
+      <div class="row">
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+      </div>
+  </div>
+  <div class="result-container">
+      <p class="result">Current player's turn: X</p>
+  </div>
+      <br>    
+  <div class="reset">
+      <button id="reset-button" class="btn">Reset</button>
+  </div>
   <script src="./app.js"></script>
-  
 </body>
 </html>
