@@ -70,7 +70,7 @@ const resetGame = () => {
     currentPlayer = 'X';
     result.textContent = "Current player's turn: X";
 
-    // Reset button text and enable buttons
+    // Reset cell content and enable buttons
     btns.forEach((btn, index) => {
         btn.textContent = ''; // Clear the cell content
         btn.disabled = false; // Enable the button
@@ -78,6 +78,8 @@ const resetGame = () => {
     });
 };
 
+// Add click event listener to reset button
+document.querySelector('#reset-button').addEventListener('click', resetGame);
 // Add click event listeners to buttons
 btns.forEach((btn, index) => {
     btn.addEventListener('click', () => ticTacToe(btn, index));
